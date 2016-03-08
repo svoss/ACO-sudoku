@@ -72,8 +72,8 @@ def ACO(sudoku):
         l.append(L)
         L = min(l)
         i -= 1
-        print i,L
-    print L
+        print(i,L)
+    print(L)
 
 def main(file):
     #init pheromone equally
@@ -87,4 +87,4 @@ if __name__ == '__main__':
     if len(a) > 1:
         main(a[1])
     else:
-        print "No soduku puzzle given"
+        print("No soduku puzzle given")
